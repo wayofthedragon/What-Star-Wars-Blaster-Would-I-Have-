@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Star Wars Blaster Would I Have?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What Star Wars Blaster Would I Have?</h1>
+        <div id="quiz" class="quiz-container">
+            <div id="progress">Question <span id="current-question">1</span> of <span id="total-questions">5</span></div>
+            <p id="question-text"></p>
+            <div id="answers" class="answer-options"></div>
+            <button id="next-btn" class="btn" disabled>Next</button>
+        </div>
+        <div id="result" class="result-container" style="display: none;">
+            <h2>Your Blaster: <span id="blaster-name"></span></h2>
+            <!-- Placeholder images; replace with real URLs or local files -->
+            <img id="blaster-image" src="" alt="Your blaster" style="max-width: 300px;">
+            <p id="blaster-description"></p>
+            <p id="blaster-stats"></p>
+            <p id="blaster-match"></p>
+            <button id="retake-btn" class="btn">Retake Quiz</button>
+            <button id="share-btn" class="btn">Share Result</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
